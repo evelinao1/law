@@ -13,7 +13,7 @@ body {
 
     .container::before {    
         content: "";
-        background-image: url("/img/bg.jpg");
+        background-image: url("./img/bg.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
