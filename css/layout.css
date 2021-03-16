@@ -22,7 +22,7 @@
     }
 }
 
-@media ( max-width: 800px ){
+@media ( max-width: 812px ){
     .header {
         width: 100%;
         
@@ -63,7 +63,16 @@
 
     .more {
         position: absolute;
-        top: 85%;
+        top: 65%;
         left: 40%;
+    }
+}
+@media ( max-width: 800px ){
+    .link {
+        padding: 3px;
+    }
+    .cont {
+        text-align: left;
+        margin-left: 180px;
     }
 }
