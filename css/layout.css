@@ -15,10 +15,22 @@
         width: 70%;
         
     }
-    
+    .text {
+        
+        width: 50%;
+        float: right;
+        text-align: left;
+        margin-left: 10px;
+        /* margin-right: 5px; */
+        padding-left: 3px;
+        padding-right: 5px;
+    }
+    .title{
+        margin-left: 10px;
+    }
 }
 
-@media ( max-width: 812px ){
+@media ( max-width: 830px ){
     .header {
         width: 100%;
     }
@@ -32,8 +44,7 @@
         
         top: -10%;
         left: 25%;
-        outline: 2px solid #0B0D13;
-        outline-offset: 10px;
+       
         
     }
     .title {
@@ -47,10 +58,9 @@
         
     }
     .text {
-        display: inline-block;
+        
         width: 100%;
         float: left;
-        text-align: left;
         margin-left: 5px;
         margin-right: 5px;
         padding-left: 3px;
