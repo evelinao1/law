@@ -13,7 +13,7 @@ body {
 
     .container::before {    
         content: "";
-        background-image: url("./img/bg.jpg");
+        background-image: url("/img/bg.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -38,8 +38,8 @@ body {
 .header {
     display: inline-block;
     background-color:  #080B10;
-    width: 95%;
-    margin-left: 1%;
+    width: 60%;
+    margin-left: 5%;
     /* border: 3px solid green; */
     /* position: relative; */
     
@@ -63,6 +63,7 @@ body {
     display: inline-block;
     float: right;
     margin-right: 5%;
+   
 }
 .link {
     display: inline-block;
@@ -70,7 +71,7 @@ body {
     text-transform: uppercase;
     margin-left: 20px;
     color: #C6AC70;
-    cursor: pointer;
+    cursor:pointer;
 }
 .slogan {
     display: inline-block;
@@ -125,7 +126,7 @@ body {
         width: 60%;
         float: right;
         margin-bottom: 10px;
-        margin-right: 20px;
+        margin-right: 90px;
         margin-top: 5px;
         
     }
@@ -134,7 +135,7 @@ body {
         width: 60%;
         float: right;
         text-align: left;
-        margin-right: 20px;
+        margin-right: 90px;
     }
 .button {
     display: inline-block;
@@ -148,7 +149,7 @@ body {
 .more {
     position: absolute;
     top: 75%;
-    left: 40%;
+    left: 45%;
 }
 
 .button:hover {
