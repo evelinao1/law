@@ -136,6 +136,7 @@ body {
         float: right;
         text-align: left;
         margin-right: 90px;
+        margin-bottom: 20px;
     }
 .button {
     display: inline-block;
@@ -147,9 +148,8 @@ body {
     cursor: pointer;
 }
 .more {
-    position: absolute;
-    top: 75%;
-    left: 45%;
+    text-align: left;
+    margin-left: 220px;
 }
 
 .button:hover {
